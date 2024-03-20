@@ -1,0 +1,97 @@
+/* Write your CSS here */
+.loading-view {
+  background-color: #0f172a;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+.KXP-container {
+  background-image: linear-gradient(to bottom, #d91c1f, #0f172a);
+  background-size: cover;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+.latest-matches-heading {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  font-size: 15px;
+  align-self: flex-start;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+.RCB-container {
+  background-image: linear-gradient(to bottom, #a4261d, #0f172a);
+  background-size: cover;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+.KKR-container {
+  background-image: linear-gradient(to bottom, #5755a7, #0f172a);
+  background-size: cover;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+.KXP-container {
+  background-image: linear-gradient(to bottom, #d91c1f, #0f172a);
+  background-size: cover;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+.CSK-container {
+  background-image: linear-gradient(to bottom, #f7db00, #ffffff33);
+  background-size: cover;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+.RR-container {
+  background-image: linear-gradient(to bottom, #da237b, #0f172a);
+  background-size: cover;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+.MI-container {
+  background-image: linear-gradient(to bottom, #13418b, #0f172a);
+  background-size: cover;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+.SH-container {
+  background-image: linear-gradient(to bottom, #f26d22, #0f172a);
+  background-size: cover;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+.DC-container {
+  background-image: linear-gradient(to bottom, #4f5db0, #0f172a);
+  background-size: cover;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+.match-cards-list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+}
