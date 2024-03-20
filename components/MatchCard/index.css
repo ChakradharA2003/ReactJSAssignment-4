@@ -1,0 +1,62 @@
+/* Write your CSS here */
+* {
+  font-family: 'Bree Serif';
+}
+.match-card-list {
+  background-color: #1e293b;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  border-radius: 15px;
+  width: 25%;
+  height: 320px;
+  padding: 15px;
+}
+.competing-logo {
+  height: 100px;
+  width: 100px;
+}
+.team-name {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 450;
+  text-align: center;
+}
+.match-result {
+  color: #ffffff;
+  font-size: 15px;
+  text-align: center;
+}
+.Won-status {
+  color: #18ed66;
+  font-size: 18px;
+}
+.Lost-status {
+  color: #e31a1a;
+  font-size: 18px;
+}
+@media (max-width: 767px) and (orientation: portrait) {
+  .match-card-list {
+    width: 40%;
+    height: 220px;
+    padding: 10px;
+  }
+  .competing-logo {
+    height: 60px;
+    width: 60px;
+  }
+  .team-name {
+    font-size: 12px;
+  }
+  .match-result {
+    font-size: 10px;
+  }
+  .Won-status {
+    font-size: 12px;
+  }
+  .Lost-status {
+    font-size: 12px;
+  }
+}
