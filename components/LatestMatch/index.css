@@ -1,0 +1,102 @@
+/* Write your CSS here */
+* {
+  font-family: 'Bree Serif';
+}
+.latest-match-bg-container {
+  background-color: #1e293b;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  align-items: center;
+  padding: 15px;
+}
+.team-and-logo-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  order: -1;
+  align-self: flex-start;
+  width: 60%;
+}
+.team-container {
+  order: -1;
+}
+.team-name {
+  color: #ffffff;
+  font-size: 30px;
+  text-align: left;
+}
+.date {
+  color: #ffffff;
+  font-size: 24px;
+}
+.venue-result {
+  color: #ffffff;
+  font-size: 18px;
+}
+.competing-team-logo {
+  height: 250px;
+  width: 250px;
+  order: 0;
+  align-self: center;
+}
+.match-details-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+
+  align-self: flex-end;
+}
+.headings {
+  color: #ffffff;
+  font-size: 15px;
+  margin: 4px;
+}
+.paras {
+  color: #ffffff;
+  font-size: 10px;
+}
+hr {
+  display: none;
+}
+@media (max-width: 767px) and (orientation: portrait) {
+  .latest-match-bg-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .team-and-logo-container {
+    width: 100%;
+  }
+  .team-name {
+    font-size: 18px;
+  }
+  .date {
+    font-size: 14px;
+  }
+  .venue-result {
+    font-size: 10px;
+  }
+  .competing-team-logo {
+    height: 100px;
+    width: 100px;
+  }
+  .match-details-container {
+    width: 100%;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .heading {
+    font-size: 10px;
+  }
+  .paras {
+    font-size: 8px;
+  }
+  hr {
+    border: 2px solid #475569;
+  }
+}
